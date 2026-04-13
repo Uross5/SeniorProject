@@ -1,13 +1,4 @@
-# Athlete Performance Database
+# Basketball database / AGPPA
 
-## Project Overview
-This project is the initial database phase of an athlete performance analysis system.
-
-The goal is to design a structured MySQL database that will later be integrated with a C#/.NET application. This is a team project, where the database and application layers are developed separately.
-
-## Technologies Used
-- MySQL
-- Git & GitHub
-- C# / .NET (integration planned)
-
-## Current Database Schema
+MySQL schema in `athletedb.sql`. Web API and UI in `Api/` (open `Agppa.sln`).
+Connection string: `Api/appsettings.json`.
