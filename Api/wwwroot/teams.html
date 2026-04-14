@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams – AGPPA</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="/"><h1>AGPPA</h1></a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/athletes.html">Athletes</a>
+            <a href="/teams.html">Teams</a>
+            <a href="/games.html">Games</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="panel">
+            <h2 id="formTitle">New team</h2>
+            <form id="teamForm">
+                <input type="hidden" id="teamId" />
+                <label for="teamName">Team name</label>
+                <input type="text" id="teamName" required maxlength="100" />
+                <label for="coachName">Coach</label>
+                <input type="text" id="coachName" maxlength="100" />
+                <div>
+                    <button type="submit">Save</button>
+                    <button type="button" class="secondary" id="btnReset">Reset</button>
+                </div>
+                <p id="formError" class="msg-error"></p>
+            </form>
+        </div>
+        <div class="panel">
+            <h2>Teams</h2>
+            <p id="listError" class="msg-error"></p>
+            <div id="teamsList"></div>
+        </div>
+    </div>
+    <script src="/js/api.js"></script>
+    <script src="/js/teams.js"></script>
+</body>
+</html>
