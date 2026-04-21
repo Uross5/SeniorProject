@@ -14,10 +14,11 @@
             <a href="/athletes.html">Athletes</a>
             <a href="/teams.html">Teams</a>
             <a href="/games.html">Games</a>
+            <span id="navAuth"></span>
         </nav>
     </div>
     <div class="container">
-        <div class="panel">
+        <div class="panel" id="athleteFormPanel">
             <h2 id="formTitle">New athlete</h2>
             <form id="athleteForm">
                 <input type="hidden" id="athleteId" />
@@ -28,14 +29,7 @@
                 <label for="dateOfBirth">Date of birth</label>
                 <input type="date" id="dateOfBirth" />
                 <label for="position">Position</label>
-                <select id="position" name="position" placeholder="Select athlete's position">
-                    <option value="" selected disabled hidden>Select Position</option>
-                    <option value="PG">Point Guard</option>
-                    <option value="SG">Shooting Guard</option>
-                    <option value="SF">Small Forward</option>
-                    <option value="PF">Power Forward</option>
-                    <option value="C">Center</option>
-                </select><br>
+                <input type="text" id="position" maxlength="50" placeholder="e.g. PG, C" />
                 <div>
                     <button type="submit">Save</button>
                     <button type="button" class="secondary" id="btnReset">Reset</button>
@@ -49,6 +43,7 @@
             <div id="athletesList"></div>
         </div>
     </div>
+    <script src="/js/auth.js"></script>
     <script src="/js/api.js"></script>
     <script src="/js/athletes.js"></script>
 </body>

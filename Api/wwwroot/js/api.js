@@ -1,5 +1,12 @@
+function apiAuthHeaders() {
+    const t = localStorage.getItem("agppa_token");
+    if (!t) return {};
+    return { Authorization: "Bearer " + t };
+}
+
 async function apiJson(url, options = {}) {
     const init = { ...options };
+    init.headers = { ...apiAuthHeaders(), ...init.headers };
     if (init.body && typeof init.body === "string") {
         init.headers = { "Content-Type": "application/json", ...init.headers };
     }

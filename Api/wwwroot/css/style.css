@@ -27,6 +27,19 @@ body {
     font-size: 1.35rem;
 }
 
+.nav nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.nav-user {
+    color: #dbe4f5;
+    font-size: 0.9rem;
+    margin-left: 0.25rem;
+}
+
 a {
     margin-right: 12px;
     text-decoration: none;
@@ -127,45 +140,3 @@ th {
     color: #666;
     font-size: 0.95rem;
 }
-
-.login{
-    max-width: 400px;
-    margin: 5rem auto;
-    padding: 2rem;
-    background: #1f355d;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-}
-.login h1 {
-    color: #fff;
-    text-align: center;
-    margin-bottom: 1.5rem;
-}
-.loginForm{
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-}
-.loginForm label {
-    margin-top: 2rem;
-    font-weight: 600;
-}
-
-.loginForm button {
-    margin-top: 1.2rem;
-    padding: 0.75rem;
-    font-size: 1.2rem;
-}
-
-.loginForm button:hover {
-    background-color: #fff;
-    color: #1f355d;
-    transition: background-color 0.5s, color 0.5s;
-}
-
-.secondary {
-    
-    margin: 0 auto;
-    text-align: center;
-}
-

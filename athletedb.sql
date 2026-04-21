@@ -3,29 +3,30 @@ SET NAMES utf8mb4;
 CREATE DATABASE IF NOT EXISTS basketball_project CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE basketball_project;
 
-CREATE TABLE seasons (
+CREATE TABLE IF NOT EXISTS seasons (
     season_id INT AUTO_INCREMENT PRIMARY KEY,
     year_label INT NOT NULL,
     display_name VARCHAR(50) NULL,
     UNIQUE (year_label)
 ) ENGINE=InnoDB;
 
-CREATE TABLE users (
-    user_id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) NOT NULL,
-    password_hash VARCHAR(255) NOT NULL,
-    role VARCHAR(30) NOT NULL,
-    email VARCHAR(100) NULL,
-    UNIQUE (username)
-) ENGINE=InnoDB;
-
-CREATE TABLE teams (
+CREATE TABLE IF NOT EXISTS teams (
     team_id INT AUTO_INCREMENT PRIMARY KEY,
     team_name VARCHAR(100) NOT NULL,
     coach_name VARCHAR(100) NULL
 ) ENGINE=InnoDB;
 
-CREATE TABLE athletes (
+CREATE TABLE IF NOT EXISTS users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    password_hash VARCHAR(255) NOT NULL,
+    role VARCHAR(30) NOT NULL,
+    email VARCHAR(100) NULL,
+    UNIQUE (username),
+    CONSTRAINT fk_users_team FOREIGN KEY (team_id) REFERENCES teams (team_id) ON DELETE SET NULL
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS athletes (
     athlete_id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
@@ -33,7 +34,7 @@ CREATE TABLE athletes (
     position VARCHAR(50) NULL
 ) ENGINE=InnoDB;
 
-CREATE TABLE rosters (
+CREATE TABLE IF NOT EXISTS rosters (
     roster_id INT AUTO_INCREMENT PRIMARY KEY,
     athlete_id INT NOT NULL,
     team_id INT NOT NULL,
@@ -45,7 +46,7 @@ CREATE TABLE rosters (
     CONSTRAINT fk_rosters_season FOREIGN KEY (season_id) REFERENCES seasons (season_id) ON DELETE RESTRICT
 ) ENGINE=InnoDB;
 
-CREATE TABLE games (
+CREATE TABLE IF NOT EXISTS games (
     game_id INT AUTO_INCREMENT PRIMARY KEY,
     team_id INT NOT NULL,
     opponent_team_id INT NOT NULL,
@@ -59,7 +60,7 @@ CREATE TABLE games (
     CONSTRAINT fk_games_season FOREIGN KEY (season_id) REFERENCES seasons (season_id) ON DELETE RESTRICT
 ) ENGINE=InnoDB;
 
-CREATE TABLE performance_stats (
+CREATE TABLE IF NOT EXISTS performance_stats (
     stat_id INT AUTO_INCREMENT PRIMARY KEY,
     roster_id INT NOT NULL,
     game_id INT NOT NULL,
@@ -72,7 +73,7 @@ CREATE TABLE performance_stats (
     CONSTRAINT fk_stats_game FOREIGN KEY (game_id) REFERENCES games (game_id) ON DELETE CASCADE
 ) ENGINE=InnoDB;
 
-CREATE TABLE percentiles (
+CREATE TABLE IF NOT EXISTS percentiles (
     percentile_id INT AUTO_INCREMENT PRIMARY KEY,
     athlete_id INT NOT NULL,
     season_id INT NOT NULL,
@@ -84,7 +85,7 @@ CREATE TABLE percentiles (
     CONSTRAINT fk_pct_season FOREIGN KEY (season_id) REFERENCES seasons (season_id) ON DELETE CASCADE
 ) ENGINE=InnoDB;
 
-CREATE TABLE reports (
+CREATE TABLE IF NOT EXISTS reports (
     report_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
     report_type VARCHAR(50) NOT NULL,

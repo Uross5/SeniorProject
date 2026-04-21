@@ -1,22 +1,56 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AGPPA</title> 
-        <link rel="stylesheet" href="/css/style.css">
-    </head>
-    <body>
-        <div class="login">
-            <h1>AGPPA</h1>
-            <form id="loginForm" class="loginForm">
-                <label for="username">Username</label>
-                <input type="text" id="username" maxlength="50" placeholder="Enter your username" required />
-                <label for="password">Password</label>
-                <input type="password" id="password" maxlength="50" placeholder="Enter your password" required /><br />
-                <button type="submit">Login</button>
-                <a href="/register.html" class="secondary">Don't have an account? Register</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in – AGPPA</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="/"><h1>AGPPA</h1></a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/athletes.html">Athletes</a>
+            <a href="/teams.html">Teams</a>
+            <a href="/games.html">Games</a>
+            <span id="navAuth"></span>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="panel">
+            <h2>Sign in</h2>
+            <form id="loginForm">
+                <label for="loginUser">Username</label>
+                <input type="text" id="loginUser" required maxlength="50" autocomplete="username" />
+                <label for="loginPass">Password</label>
+                <input type="password" id="loginPass" required autocomplete="current-password" />
+                <div>
+                    <button type="submit">Sign in</button>
+                </div>
+                <p id="loginError" class="msg-error"></p>
             </form>
         </div>
-    </body>
+        <div class="panel">
+            <h2>Register (viewer account)</h2>
+            <p class="muted">Creates a read-only user. The super admin adds team admins under Users.</p>
+            <form id="registerForm">
+                <label for="regUser">Username</label>
+                <input type="text" id="regUser" required maxlength="50" autocomplete="username" />
+                <label for="regPass">Password (min. 6)</label>
+                <input type="password" id="regPass" required minlength="6" autocomplete="new-password" />
+                <label for="regEmail">Email (optional)</label>
+                <input type="text" id="regEmail" maxlength="100" />
+                <div>
+                    <button type="submit" class="secondary">Register</button>
+                </div>
+                <p id="regError" class="msg-error"></p>
+                <p id="regOk" class="msg-ok"></p>
+            </form>
+        </div>
+    </div>
+    <script src="/js/auth.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/login.js"></script>
+</body>
 </html>

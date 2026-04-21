@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users – AGPPA</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="/"><h1>AGPPA</h1></a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/athletes.html">Athletes</a>
+            <a href="/teams.html">Teams</a>
+            <a href="/games.html">Games</a>
+            <span id="navAuth"></span>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="panel" id="usersGate">
+            <p id="gateError" class="msg-error"></p>
+        </div>
+        <div class="panel" id="usersPanel" style="display:none">
+            <h2>New user</h2>
+            <p class="muted">Assign team admins to a team. Viewer accounts can also self-register.</p>
+            <form id="userForm">
+                <label for="newUsername">Username</label>
+                <input type="text" id="newUsername" required maxlength="50" />
+                <label for="newPassword">Password</label>
+                <input type="password" id="newPassword" required minlength="6" />
+                <label for="newRole">Role</label>
+                <select id="newRole">
+                    <option value="TeamAdmin">Team admin</option>
+                    <option value="User">Viewer</option>
+                </select>
+                <div id="teamSelectWrap">
+                    <label for="newTeamIdSelect">Team (team admin only)</label>
+                    <select id="newTeamIdSelect"></select>
+                </div>
+                <label for="newEmail">Email (optional)</label>
+                <input type="text" id="newEmail" maxlength="100" />
+                <div>
+                    <button type="submit">Add</button>
+                </div>
+                <p id="userFormError" class="msg-error"></p>
+            </form>
+        </div>
+        <div class="panel" id="usersListPanel" style="display:none">
+            <h2>Users</h2>
+            <p id="listError" class="msg-error"></p>
+            <div id="usersList"></div>
+        </div>
+    </div>
+    <script src="/js/auth.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/users.js"></script>
+</body>
+</html>

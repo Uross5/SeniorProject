@@ -1,5 +1,11 @@
 const apiBase = "";
 
+function applyAthletesUi() {
+    const panel = document.getElementById("athleteFormPanel");
+    if (!panel) return;
+    panel.style.display = canEditAthletes() ? "block" : "none";
+}
+
 async function loadAthletes() {
     const el = document.getElementById("athletesList");
     const err = document.getElementById("listError");
@@ -10,33 +16,37 @@ async function loadAthletes() {
             el.innerHTML = "<p class='muted'>No athletes yet.</p>";
             return;
         }
+        const showActions = canEditAthletes();
         el.innerHTML = `
 <table>
   <thead><tr><th>ID</th><th>First name</th><th>Last name</th><th>DOB</th><th>Position</th><th></th></tr></thead>
   <tbody>
     ${rows
-        .map(
-            (a) => `<tr>
+        .map((a) => {
+            const actions = showActions
+                ? `<button type="button" class="secondary" data-edit="${a.athleteId}">Edit</button>
+        <button type="button" class="danger" data-del="${a.athleteId}">Delete</button>`
+                : "";
+            return `<tr>
       <td>${a.athleteId}</td>
       <td>${escapeHtml(a.firstName)}</td>
       <td>${escapeHtml(a.lastName)}</td>
       <td>${a.dateOfBirth ? escapeHtml(String(a.dateOfBirth).slice(0, 10)) : ""}</td>
       <td>${escapeHtml(a.position ?? "")}</td>
-      <td>
-        <button type="button" class="secondary" data-edit="${a.athleteId}">Edit</button>
-        <button type="button" class="danger" data-del="${a.athleteId}">Delete</button>
-      </td>
-    </tr>`
-        )
+      <td>${actions}</td>
+    </tr>`;
+        })
         .join("")}
   </tbody>
 </table>`;
-        el.querySelectorAll("[data-edit]").forEach((b) =>
-            b.addEventListener("click", () => startEdit(Number(b.getAttribute("data-edit"))))
-        );
-        el.querySelectorAll("[data-del]").forEach((b) =>
-            b.addEventListener("click", () => removeAthlete(Number(b.getAttribute("data-del"))))
-        );
+        if (showActions) {
+            el.querySelectorAll("[data-edit]").forEach((b) =>
+                b.addEventListener("click", () => startEdit(Number(b.getAttribute("data-edit"))))
+            );
+            el.querySelectorAll("[data-del]").forEach((b) =>
+                b.addEventListener("click", () => removeAthlete(Number(b.getAttribute("data-del"))))
+            );
+        }
     } catch (e) {
         err.textContent = "Error: " + e.message;
         el.innerHTML = "";
@@ -89,6 +99,10 @@ document.getElementById("athleteForm").addEventListener("submit", async (e) => {
     e.preventDefault();
     const err = document.getElementById("formError");
     err.textContent = "";
+    if (!canEditAthletes()) {
+        err.textContent = "Only the super admin can change athletes.";
+        return;
+    }
     const id = document.getElementById("athleteId").value;
     const dob = document.getElementById("dateOfBirth").value;
     const body = {
@@ -123,4 +137,7 @@ document.getElementById("athleteForm").addEventListener("submit", async (e) => {
 
 document.getElementById("btnReset").addEventListener("click", resetForm);
 
-loadAthletes();
+document.addEventListener("DOMContentLoaded", () => {
+    applyAthletesUi();
+    loadAthletes();
+});

@@ -1,5 +1,12 @@
 const apiBase = "";
 
+function applyTeamsUi() {
+    const panel = document.getElementById("teamFormPanel");
+    if (!panel) return;
+    const show = isSuperAdmin() || isTeamAdmin();
+    panel.style.display = show ? "block" : "none";
+}
+
 async function loadTeams() {
     const el = document.getElementById("teamsList");
     const err = document.getElementById("listError");
@@ -15,17 +22,19 @@ async function loadTeams() {
   <thead><tr><th>ID</th><th>Name</th><th>Coach</th><th></th></tr></thead>
   <tbody>
     ${teams
-        .map(
-            (t) => `<tr data-id="${t.teamId}">
+        .map((t) => {
+            const canRow = canEditTeamRow(t.teamId);
+            const actions = canRow
+                ? `<button type="button" class="secondary" data-edit="${t.teamId}">Edit</button>
+        <button type="button" class="danger" data-del="${t.teamId}">Delete</button>`
+                : "";
+            return `<tr data-id="${t.teamId}">
       <td>${t.teamId}</td>
       <td>${escapeHtml(t.teamName)}</td>
       <td>${escapeHtml(t.coachName ?? "")}</td>
-      <td>
-        <button type="button" class="secondary" data-edit="${t.teamId}">Edit</button>
-        <button type="button" class="danger" data-del="${t.teamId}">Delete</button>
-      </td>
-    </tr>`
-        )
+      <td>${actions}</td>
+    </tr>`;
+        })
         .join("")}
   </tbody>
 </table>`;
@@ -62,7 +71,7 @@ function resetForm() {
     document.getElementById("teamId").value = "";
     document.getElementById("teamName").value = "";
     document.getElementById("coachName").value = "";
-    document.getElementById("formTitle").textContent = "New team";
+    document.getElementById("formTitle").textContent = isTeamAdmin() ? "Your team only" : "New team";
     document.getElementById("formError").textContent = "";
 }
 
@@ -90,6 +99,10 @@ document.getElementById("teamForm").addEventListener("submit", async (e) => {
         err.textContent = "Team name is required.";
         return;
     }
+    if (!id && !canCreateTeam()) {
+        err.textContent = "You are not allowed to create a new team.";
+        return;
+    }
     try {
         if (id) {
             body.teamId = Number(id);
@@ -112,4 +125,10 @@ document.getElementById("teamForm").addEventListener("submit", async (e) => {
 
 document.getElementById("btnReset").addEventListener("click", resetForm);
 
-loadTeams();
+document.addEventListener("DOMContentLoaded", () => {
+    applyTeamsUi();
+    if (typeof isTeamAdmin === "function" && isTeamAdmin()) {
+        document.getElementById("formTitle").textContent = "Your team only";
+    }
+    loadTeams();
+});
