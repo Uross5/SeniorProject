@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Agppa.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0274a39a0d58edbca164b06654e225f136286a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc512fc959b6845dcd3ee5f99ada33354d57d453")]
 [assembly: System.Reflection.AssemblyProductAttribute("Agppa.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Agppa.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,9 +16,14 @@ public class AthletesController : ControllerBase
 
     [HttpGet]
     [AllowAnonymous]
-    public async Task<ActionResult<IEnumerable<Athlete>>> GetAll()
+    public async Task<ActionResult<IEnumerable<Athlete>>> GetAll([FromQuery] int? teamId)
     {
-        return await _db.Athletes.AsNoTracking().OrderBy(a => a.AthleteId).ToListAsync();
+        IQueryable<Athlete> query = _db.Athletes.AsNoTracking().OrderBy(a => a.AthleteId);
+        if (teamId.HasValue && teamId.Value > 0)
+        {
+            query = query.Where(a => a.TeamId == teamId.Value);
+        }
+        return await query.ToListAsync();
     }
 
     [HttpGet("{id:int}")]

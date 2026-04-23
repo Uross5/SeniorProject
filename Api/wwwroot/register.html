@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AGPPA</title> 
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <div class="login loginForm2">
+            <h1>AGPPA</h1>
+            <form id="loginForm" class="loginForm ">
+                <label for="username">Username</label>
+                <input type="text" id="username" maxlength="50" placeholder="Enter a username" required />
+                <label for="password">Password</label>
+                <input type="password" id="password" maxlength="50" placeholder="Enter a password" required />
+                <label for="role">Role</label>
+                <select id="role" name="role" placeholder="Select a role">
+                    <option value="" selected disabled hidden>Select Role</option>
+                    <option value="Coach">Coach</option>
+                    <option value="Admin">Admin</option>
+                </select>
+                <button type="submit">Create account</button>
+                <a href="/login.html" class="secondary">Already have an account? Login</a>
+            </form>
+        </div>
+        <script src="./js/register.js"></script>
+    </body>
+    
+</html>
