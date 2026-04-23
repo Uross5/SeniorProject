@@ -1,0 +1,193 @@
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\appsettings.json
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\Agppa.Api.staticwebassets.runtime.json
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\Agppa.Api.staticwebassets.endpoints.json
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\Agppa.Api.exe
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\Agppa.Api.deps.json
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\Agppa.Api.runtimeconfig.json
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\Agppa.Api.dll
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\Agppa.Api.pdb
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\EFCore.NamingConventions.dll
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\MySqlConnector.dll
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\Agppa.Api.csproj.AssemblyReference.cache
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\Agppa.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\Agppa.Api.AssemblyInfoInputs.cache
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\Agppa.Api.AssemblyInfo.cs
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\Agppa.Api.csproj.CoreCompileInputs.cache
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\Agppa.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\scopedcss\bundle\Agppa.Api.styles.css
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\compressed\ogdf0cywge-4rckpjxcde.gz
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\compressed\i07mbvr3tg-3pr52tdq99.gz
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\compressed\0fkl0zkum6-u9zastnthy.gz
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\compressed\5aigb4l2qu-1b6872frg8.gz
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\compressed\j050hrmabg-rdgh9ucfx0.gz
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\compressed\otfr2iklt2-wf1ybns2ms.gz
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\compressed\0gymqc0atk-oj1ql7y32e.gz
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\compressed\xl0ps5fzc3-gycqv0nyjn.gz
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\Agppa.Api.csproj.Up2Date
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\Agppa.Api.dll
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\refint\Agppa.Api.dll
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\Agppa.Api.pdb
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\Agppa.Api.genruntimeconfig.cache
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\ref\Agppa.Api.dll
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\appsettings.json
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Agppa.Api.staticwebassets.runtime.json
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Agppa.Api.staticwebassets.endpoints.json
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Agppa.Api.exe
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Agppa.Api.deps.json
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Agppa.Api.runtimeconfig.json
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Agppa.Api.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Agppa.Api.pdb
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\EFCore.NamingConventions.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\MySqlConnector.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\Agppa.Api.csproj.AssemblyReference.cache
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\Agppa.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\Agppa.Api.AssemblyInfoInputs.cache
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\Agppa.Api.AssemblyInfo.cs
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\Agppa.Api.csproj.CoreCompileInputs.cache
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\Agppa.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\Agppa.Api.sourcelink.json
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\scopedcss\bundle\Agppa.Api.styles.css
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\swae.build.ex.cache
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\Agppa.Api.csproj.Up2Date
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\Agppa.Api.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\refint\Agppa.Api.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\Agppa.Api.pdb
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\Agppa.Api.genruntimeconfig.cache
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\ref\Agppa.Api.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Humanizer.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\kkdhukialt-{0}-0xcjtq8dgq-0xcjtq8dgq.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\rt6k9nbhy7-{0}-3fzy4smfuo-3fzy4smfuo.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\q6x00sqggs-{0}-yoae526e8g-yoae526e8g.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\w9it6q1ewq-{0}-crhfal7nse-crhfal7nse.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\iw9e1rvc8m-{0}-r3t6yea09h-r3t6yea09h.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\va9r12ixrw-{0}-55xeexolht-55xeexolht.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\rty9ausoc1-{0}-kgjecpg6fo-kgjecpg6fo.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\m4fjj0h0dr-{0}-inj70a1294-inj70a1294.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\vsmyel0uag-{0}-he8mrxaqz6-he8mrxaqz6.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\v8tnzodms2-{0}-ntf71z0qg8-ntf71z0qg8.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\hxdbdr18g0-{0}-dhgfbb250g-dhgfbb250g.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\o9vj9bfuax-{0}-fy1pkmrkm8-fy1pkmrkm8.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\ncxs6gnes7-{0}-oz9i4gvr3d-oz9i4gvr3d.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\kafaeqygny-{0}-omrpn4ljc9-omrpn4ljc9.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\vap12pihps-{0}-fx6u3bn4sm-fx6u3bn4sm.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\55ndg78onl-{0}-bm53jrnp0p-bm53jrnp0p.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\72dv3bc3j0-{0}-lug4agguxg-lug4agguxg.gz
+C:\Users\breon\OneDrive\Documents\GitHub\theSeniorProject\SeniorProject\Api\obj\Debug\net9.0\compressed\c4yjbj7vva-{0}-o90xso1irs-o90xso1irs.gz

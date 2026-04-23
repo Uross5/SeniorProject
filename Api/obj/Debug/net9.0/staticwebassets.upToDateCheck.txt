@@ -1,0 +1,16 @@
+wwwroot\athletes.html
+wwwroot\css\style.css
+wwwroot\games.html
+wwwroot\index.html
+wwwroot\js\api.js
+wwwroot\js\athletes.js
+wwwroot\js\teams.js
+wwwroot\teams.html
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\wwwroot\athletes.html
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\wwwroot\js\teams.js
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\wwwroot\css\style.css
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\wwwroot\games.html
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\wwwroot\index.html
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\wwwroot\js\api.js
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\wwwroot\js\athletes.js
+C:\Users\korisnik\Desktop\Cukic Uros BASKET\SeniorProject-master\Api\wwwroot\teams.html

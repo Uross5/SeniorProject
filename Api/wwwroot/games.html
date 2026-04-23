@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games – AGPPA</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="/"><h1>AGPPA</h1></a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/athletes.html">Athletes</a>
+            <a href="/teams.html">Teams</a>
+            <a href="/games.html">Games</a>
+            <span id="navAuth"></span>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="panel" id="gamesFormPanel">
+            <h2>Games</h2>
+            <p class="muted">Log a game performance entry and choose an opponent team.</p>
+            <form id="gamesForm" class="games-form">
+                <div class="form-row">
+                    <label for="gameDate">Game date</label>
+                    <input type="date" id="gameDate" required />
+                </div>
+                <div class="form-row">
+                    <label for="yourTeam">Your team</label>
+                    <select id="yourTeam" required>
+                        <option value="">Loading teams...</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="opponentTeam">Opponent team</label>
+                    <select id="opponentTeam" required>
+                        <option value="">Select opponent</option>
+                    </select>
+                </div>
+                <div id="rosterSection" class="roster-section">
+                    <p class="muted">Choose your team to load that team’s athletes and enter stats for each player.</p>
+                </div>
+                <p id="gamesFormError" class="msg-error"></p>
+                <button type="submit">Save game</button>
+            </form>
+        </div>
+        <div class="panel">
+            <h2>Submitted Games</h2>
+            <div id="gamesList"></div>
+        </div>
+    </div>
+    <script src="/js/auth.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/games.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+[
+  {
+    "athlete_id": 1,
+    "first_name": "John",
+    "last_name": "Doe",
+    "position": "Guard",
+    "percentiles": [
+      {
+        "season_id": 1,
+        "season_name": "2022-2023",
+        "points_scored": 85.5,
+        "assists": 92.3,
+        "rebounds": 78.9,
+        "turnovers": 45.6
+      },
+      {
+        "season_id": 2,
+        "season_name": "2023-2024",
+        "points_scored": 88.2,
+        "assists": 94.1,
+        "rebounds": 82.4,
+        "turnovers": 42.8
+      },
+      {
+        "season_id": 3,
+        "season_name": "2024-2025",
+        "points_scored": 90.7,
+        "assists": 96.5,
+        "rebounds": 85.3,
+        "turnovers": 38.9
+      }
+    ]
+  },
+  {
+    "athlete_id": 2,
+    "first_name": "Jane",
+    "last_name": "Smith",
+    "position": "Forward",
+    "percentiles": [
+      {
+        "season_id": 1,
+        "season_name": "2022-2023",
+        "points_scored": 78.4,
+        "assists": 85.6,
+        "rebounds": 91.2,
+        "turnovers": 52.3
+      },
+      {
+        "season_id": 2,
+        "season_name": "2023-2024",
+        "points_scored": 82.1,
+        "assists": 88.9,
+        "rebounds": 93.7,
+        "turnovers": 48.5
+      },
+      {
+        "season_id": 3,
+        "season_name": "2024-2025",
+        "points_scored": 86.8,
+        "assists": 91.4,
+        "rebounds": 95.2,
+        "turnovers": 44.7
+      }
+    ]
+  },
+  {
+    "athlete_id": 3,
+    "first_name": "Mike",
+    "last_name": "Johnson",
+    "position": "Center",
+    "percentiles": [
+      {
+        "season_id": 1,
+        "season_name": "2022-2023",
+        "points_scored": 2.3,
+        "assists": 5.4,
+        "rebounds": 98.1,
+        "turnovers": 40.9
+      },
+      {
+        "season_id": 2,
+        "season_name": "2023-2024",
+        "points_scored": 75.6,
+        "assists": 68.7,
+        "rebounds": 99.2,
+        "turnovers": 55.1
+      },
+      {
+        "season_id": 3,
+        "season_name": "2024-2025",
+        "points_scored": 9.8,
+        "assists": 1.3,
+        "rebounds": 99.8,
+        "turnovers": 41.4
+      }
+    ]
+  },
+  {
+    "athlete_id": 4,
+    "first_name": "Emily",
+    "last_name": "Davis",
+    "position": "Guard",
+    "percentiles": [
+      {
+        "season_id": 1,
+        "season_name": "2022-2023",
+        "points_scored": 89.2,
+        "assists": 95.7,
+        "rebounds": 74.3,
+        "turnovers": 41.8
+      },
+      {
+        "season_id": 2,
+        "season_name": "2023-2024",
+        "points_scored": 91.5,
+        "assists": 97.2,
+        "rebounds": 76.8,
+        "turnovers": 39.4
+      },
+      {
+        "season_id": 3,
+        "season_name": "2024-2025",
+        "points_scored": 93.9,
+        "assists": 98.6,
+        "rebounds": 79.5,
+        "turnovers": 36.2
+      }
+    ]
+  },
+  {
+    "athlete_id": 5,
+    "first_name": "Alex",
+    "last_name": "Brown",
+    "position": "Forward",
+    "percentiles": [
+      {
+        "season_id": 1,
+        "season_name": "2022-2023",
+        "points_scored": 81.7,
+        "assists": 87.4,
+        "rebounds": 88.9,
+        "turnovers": 49.6
+      },
+      {
+        "season_id": 2,
+        "season_name": "2023-2024",
+        "points_scored": 84.3,
+        "assists": 89.8,
+        "rebounds": 91.5,
+        "turnovers": 46.9
+      },
+      {
+        "season_id": 3,
+        "season_name": "2024-2025",
+        "points_scored": 87.6,
+        "assists": 92.1,
+        "rebounds": 93.8,
+        "turnovers": 43.7
+      }
+    ]
+  }
+]
