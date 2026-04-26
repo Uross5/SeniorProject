@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games – AGPPA</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="/"><h1>AGPPA</h1></a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/athletes.html">Athletes</a>
+            <a href="/teams.html">Teams</a>
+            <a href="/games.html">Games</a>
+            <a href="/stats.html">Stats</a>
+            <span id="navAuth"></span>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="panel" id="gameFormPanel">
+            <h2 id="gameFormTitle">New game</h2>
+            <form id="gameForm">
+                <input type="hidden" id="gameId" />
+                <label for="homeTeamId">Home team</label>
+                <select id="homeTeamId" required></select>
+                <label for="awayTeamId">Away team</label>
+                <select id="awayTeamId" required></select>
+                <p class="muted">Rezultat se ne unosi ovde — računa se automatski kao <strong>zbir poena</strong> igrača domaćina odnosno gosta (box score).</p>
+                <label for="playedAt">Played at (local)</label>
+                <input type="datetime-local" id="playedAt" required />
+                <div>
+                    <button type="submit">Save game</button>
+                    <button type="button" class="secondary" id="btnGameReset">Reset</button>
+                </div>
+                <p id="gameFormError" class="msg-error"></p>
+            </form>
+        </div>
+        <div class="panel">
+            <h2>Games</h2>
+            <p id="gamesListError" class="msg-error"></p>
+            <div id="gamesList"></div>
+        </div>
+        <div class="panel" id="gameDetailPanel" style="display:none;">
+            <h2>Game <span id="detailGameId"></span> — box score</h2>
+            <p class="muted" id="detailMeta"></p>
+            <p id="detailError" class="msg-error"></p>
+            <form id="statsForm">
+                <div id="statsRows"></div>
+                <div id="statsActions">
+                    <button type="submit">Save player stats</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/js/auth.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/games.js"></script>
+</body>
+</html>

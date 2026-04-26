@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletes – AGPPA</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="/"><h1>AGPPA</h1></a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/athletes.html">Athletes</a>
+            <a href="/teams.html">Teams</a>
+            <a href="/games.html">Games</a>
+            <a href="/stats.html">Stats</a>
+            <span id="navAuth"></span>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="panel" id="athleteFormPanel">
+            <h2 id="formTitle">New athlete</h2>
+            <form id="athleteForm">
+                <input type="hidden" id="athleteId" />
+                <label for="firstName">First name</label>
+                <input type="text" id="firstName" required maxlength="50" />
+                <label for="lastName">Last name</label>
+                <input type="text" id="lastName" required maxlength="50" />
+                <label for="dateOfBirth">Date of birth</label>
+                <input type="date" id="dateOfBirth" />
+                <label for="position">Position</label>
+                <input type="text" id="position" maxlength="50" placeholder="e.g. PG, C" />
+                <div id="teamFieldWrap">
+                    <label for="teamId">Team</label>
+                    <select id="teamId"></select>
+                </div>
+                <input type="hidden" id="teamIdFixed" value="" />
+                <div>
+                    <button type="submit">Save</button>
+                    <button type="button" class="secondary" id="btnReset">Reset</button>
+                </div>
+                <p id="formError" class="msg-error"></p>
+            </form>
+        </div>
+        <div class="panel">
+            <h2>Athletes</h2>
+            <p id="listError" class="msg-error"></p>
+            <div id="athletesList"></div>
+        </div>
+    </div>
+    <script src="/js/auth.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/athletes.js"></script>
+</body>
+</html>

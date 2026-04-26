@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League stats – AGPPA</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="/"><h1>AGPPA</h1></a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/athletes.html">Athletes</a>
+            <a href="/teams.html">Teams</a>
+            <a href="/games.html">Games</a>
+            <a href="/stats.html">Stats</a>
+            <span id="navAuth"></span>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="panel">
+            <h2>League stats</h2>
+            <p class="muted">
+                All games in the database. Use filters to narrow down teams, location (home/away), and players.
+            </p>
+            <p id="statsError" class="msg-error"></p>
+        </div>
+
+        <div class="panel">
+            <h3>Filters</h3>
+            <div class="filters-grid">
+                <div>
+                    <label for="filterTeam">Team</label>
+                    <select id="filterTeam"></select>
+                </div>
+                <div>
+                    <label for="filterLocation">Team location</label>
+                    <select id="filterLocation">
+                        <option value="all">All (overall)</option>
+                        <option value="home">Home only</option>
+                        <option value="away">Away only</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="filterPlayer">Player name</label>
+                    <input id="filterPlayer" type="text" placeholder="Search by first/last name" />
+                </div>
+            </div>
+            <div id="statsCards" class="stats-cards"></div>
+        </div>
+
+        <div class="panel">
+            <h3>Players</h3>
+            <div id="playerStats"></div>
+        </div>
+        <div class="panel">
+            <h3>Teams</h3>
+            <p class="muted">
+                PPG / Opp PPG are computed from final scores. Home/Away refer to team location in the game.
+            </p>
+            <div id="teamStats"></div>
+        </div>
+    </div>
+    <script src="/js/auth.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/stats.js"></script>
+</body>
+</html>
