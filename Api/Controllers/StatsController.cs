@@ -29,10 +29,14 @@ public class StatsController : ControllerBase
         public string LastName { get; set; } = "";
         public int TeamId { get; set; }
         public string TeamName { get; set; } = "";
+        public string Position { get; set; } = "";
         public int GamesPlayed { get; set; }
         public double AvgPoints { get; set; }
         public double AvgRebounds { get; set; }
         public double AvgAssists { get; set; }
+        public double PointsPercentile { get; set; }
+        public double ReboundsPercentile { get; set; }
+        public double AssistsPercentile { get; set; }
         public PlayerSplitDto Home { get; set; } = new();
         public PlayerSplitDto Away { get; set; } = new();
     }
@@ -85,6 +89,7 @@ public class StatsController : ControllerBase
                 LastName = a.LastName,
                 TeamId = a.TeamId,
                 TeamName = a.Team.TeamName,
+                Position = a.Position ?? "Unknown",
                 GamesPlayed = mine.Count,
                 AvgPoints = Avg(mine, x => x.Points),
                 AvgRebounds = Avg(mine, x => x.Rebounds),
@@ -93,6 +98,20 @@ public class StatsController : ControllerBase
                 Away = PlayerSplit(awayRows),
             };
         }).OrderByDescending(x => x.AvgPoints).ThenBy(x => x.LastName).ToList();
+
+        if (athleteSummaries.Count > 0)
+        {
+            var points = athleteSummaries.Select(a => a.AvgPoints).ToList();
+            var rebounds = athleteSummaries.Select(a => a.AvgRebounds).ToList();
+            var assists = athleteSummaries.Select(a => a.AvgAssists).ToList();
+
+            foreach (var athlete in athleteSummaries)
+            {
+                athlete.PointsPercentile = CalculatePercentile(points, athlete.AvgPoints);
+                athlete.ReboundsPercentile = CalculatePercentile(rebounds, athlete.AvgRebounds);
+                athlete.AssistsPercentile = CalculatePercentile(assists, athlete.AvgAssists);
+            }
+        }
 
         var teams = await _db.Teams.AsNoTracking().OrderBy(t => t.TeamName).ToListAsync();
         var games = await _db.Games.AsNoTracking().ToListAsync();
@@ -153,4 +172,16 @@ public class StatsController : ControllerBase
                 AvgPointsFor = games.Average(g => (double)g.AwayScore),
                 AvgPointsAgainst = games.Average(g => (double)g.HomeScore),
             };
-}
+    private static double CalculatePercentile(List<double> values, double value)
+    {
+        if (values.Count == 0)
+        {
+            return 0;
+        }
+
+        var sorted = values.OrderBy(x => x).ToList();
+        var countLower = sorted.Count(x => x < value);
+        var countEqual = sorted.Count(x => x == value);
+        var percentile = ((countLower + countEqual) / (double)sorted.Count) * 100.0;
+        return Math.Round(Math.Max(0, Math.Min(100, percentile)), 1);
+    }}
